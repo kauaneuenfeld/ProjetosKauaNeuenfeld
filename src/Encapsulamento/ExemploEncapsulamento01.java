@@ -2,10 +2,8 @@ package Encapsulamento;
 
 public class ExemploEncapsulamento01 {
 
-	public static void main(String[] args) {
-		
-		
+		private String nome;
+		private int idade;
+		private String cpf;
 		
 	}
-
-}
