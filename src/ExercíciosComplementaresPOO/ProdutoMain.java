@@ -6,7 +6,7 @@ public class ProdutoMain {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Produto > produtos = new ArrayList<>();
+		ArrayList<Produto> produtos = new ArrayList<>();
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -28,7 +28,7 @@ public class ProdutoMain {
             
             case 1:
             	
-            	 	System.out.print("\nDigite o nome do produto: ");
+            	 System.out.print("\nDigite o nome do produto: ");
                  String nome = sc.nextLine();
                  System.out.print("Digite o preço do produto: ");
                  double preco = sc.nextDouble();
