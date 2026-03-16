@@ -111,6 +111,19 @@ public class AlunoMain {
 			
 		case 6:
 			
+			if(alunos.isEmpty()) {
+				System.out.println("\nLISTA VAZIA");
+			}else {
+				System.out.println("\nAlunos cadastrados -> " + alunos.size());
+				int i = 0;
+				for (Aluno a : alunos) {
+				    i++;
+				    
+				    a.ExibirDados();
+				}
+
+			}
+			
 			double Soma = 0;
 			for(Aluno a : alunos) {
 				Soma += a.calcularMedia();
